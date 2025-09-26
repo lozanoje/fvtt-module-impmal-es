@@ -25,6 +25,7 @@
     "TYPES.Item.critical" : "Crítico",
     "TYPES.Item.injury" : "Lesión",
     "TYPES.Item.trait" : "Rasgo",
+    "TYPES.Item.pack" : "Paquete",
     
     "IMPMAL.Aim" : "Apuntar",
     "IMPMAL.AddPatron" : "Añadir un Patrón arrastrando y soltando desde la barra lateral o haciendo clic derecho y eligiendo 'Establecer como Patrón'",
@@ -38,6 +39,7 @@
     "IMPMAL.Ag" : "Ag",
     "IMPMAL.Age" : "Edad",
     "IMPMAL.Agility" : "Agilidad",
+    "IMPMAL.Allocation" : "Asignar",
     "IMPMAL.Ammo" : "Munición",
     "IMPMAL.AmmoCost" : "Costo de Munición",
     "IMPMAL.AmmoEffects" : "Efectos de Munición",
@@ -74,10 +76,13 @@
     "IMPMAL.Availability" : "Disponibilidad",
     "IMPMAL.Awareness" : "Percepción",
     "IMPMAL.BS" : "HB",
+    "IMPMAL.Back" : "Trasera",
+    "IMPMAL.BackArmour" : "Blindaje trasero",
     "IMPMAL.BallisticSkill" : "Habilidad Balística",
     "IMPMAL.Barrier" : "Barrera",
     "IMPMAL.Base" : "Base",
     "IMPMAL.Biomancy" : "Biomancia",
+    "IMPMAL.Biography" : "Biografia",
     "IMPMAL.Blast" : "Explosión",
     "IMPMAL.Body" : "Cuerpo",
     "IMPMAL.BodyAbbrev" : "C",
@@ -89,7 +94,8 @@
     "IMPMAL.Bulky" : "Voluminoso",
     "IMPMAL.BugReporter" : "Reportar Errores",
     "IMPMAL.Burst" : "Ráfaga",
-    "IMPMAL.Buy" : "Comprar ({cost})",
+    "IMPMAL.Buy" : "Comprar",
+    "IMPMAL.BuyCost" : "Comprar ({cost})",
     "IMPMAL.BuySuccessful" : "<p>Comprado <strong>{item}</strong> por <strong>{cost} Solares</strong></p>",
     "IMPMAL.BuyAmmo" : "Comprar Munición",
     "IMPMAL.CalledShot" : "Disparo Apuntado",
@@ -98,6 +104,7 @@
     "IMPMAL.CannotEditPropertyWithEffect" : "Esta propiedad no se puede editar porque un Efecto Activo se está aplicando a ella.",
     "IMPMAL.CannotDeleteItemEffect" : "Este efecto proviene de un objeto en este Actor. Elimina el objeto o el efecto desde su ficha.",
     "IMPMAL.Carapace" : "Coraza",
+    "IMPMAL.Career" : "Carrera",
     "IMPMAL.Cargo" : "Carga",
     "IMPMAL.Category" : "Categoría",
     "IMPMAL.Chain" : "Cadena",
@@ -116,6 +123,7 @@
     "IMPMAL.ChooseSpecialisation" : "Elige una Especialización. Si no se hace ninguna selección, se creará una especialización en blanco.",
     "IMPMAL.ChooseNum" : "Elige {num}",
     "IMPMAL.Choose" : "Elegir",
+    "IMPMAL.ChooseActor" : "Elegir actor",
     "IMPMAL.ChooseFaction" : "Elegir Facción",
     "IMPMAL.Close" : "Cerrar",
     "IMPMAL.ClearRended" : "Eliminar Rendido",
@@ -216,7 +224,8 @@
             "CriticalWounds" : "Calcular automáticamente las Heridas Críticas",
             "Initiative" : "Calcular automáticamente la Iniciativa",
             "Corruption" : "Calcular automáticamente la Corrupción Crítica"
-        }
+        },
+        "ShowPassengers" : "Mostrar tokens de los pasajeros"
     },
 
     "IMPMAL.CountEveryBullet" : "Cuenta Cada Bala",
@@ -240,6 +249,7 @@
     "IMPMAL.Cover" : "Cobertura",
     "IMPMAL.Damage" : "Daño",
     "IMPMAL.DamageDisplay" : "{damage} Daño",
+    "IMPMAL.DamageTaken" : "{damage} daño en {location}",
     "IMPMAL.Dark" : "Oscuridad",
     "IMPMAL.Dead" : "Muerto",
     "IMPMAL.DeadlyHazard" : "Peligro Mortal",
@@ -247,12 +257,16 @@
     "IMPMAL.Defended" : "Defendido",
     "IMPMAL.Defensive" : "Defensivo",
     "IMPMAL.Defend" : "Defender",
+    "IMPMAL.Delete" : "Eliminar",
     "IMPMAL.DeleteItem" : "Eliminar Objeto",
     "IMPMAL.DeleteItemConfirmation" : "¿Estás seguro de que deseas eliminar este Objeto?",
     "IMPMAL.DeleteActiveEffect" : "Eliminar Efecto Activo",
     "IMPMAL.DeleteActiveEffectConfirmation" : "¿Estás seguro de que deseas eliminar este Efecto Activo?",
     "IMPMAL.DeleteFaction" : "Eliminar Facción",
     "IMPMAL.DeleteFactionConfirmation" : "¿Estás seguro de que deseas eliminar esta Facción?",
+    "IMPMAL.DeleteVehicleWeapon" : "¿Eliminar o guardar en la carga?",
+    "IMPMAL.DeletePackContents" : "Eliminar contenido del paquete",
+    "IMPMAL.DeletePackContentsPrompt" : "¿Eliminar todos los elementos de este paquete del actor?",
     "IMPMAL.DeletingEffectItems" : "Eliminando Objetos de Efecto: {items}",
     "IMPMAL.Demeanor" : "Comportamiento",
     "IMPMAL.Description" : "Descripción",
@@ -279,6 +293,7 @@
     "IMPMAL.Divination" : "Adivinación",
     "IMPMAL.Dodge" : "Esquivar",
     "IMPMAL.DragModifications" : "Arrastra y suelta Objetos de Modificación en esta hoja para añadir modificaciones.",
+    "IMPMAL.Driver/Pilot" : "Conductor / Piloto",
     "IMPMAL.Durable" : "Duradero",
     "IMPMAL.Duration" : "Duración",
     "IMPMAL.Duty" : "Deber",
@@ -327,6 +342,9 @@
     "IMPMAL.ErrorSlotItemActor" : "Tanto este objeto como el objeto asignado deben pertenecer a un Actor.",
     "IMPMAL.ErrorNoActorBuyItem" : "No hay un Actor asignado para comprar este objeto.",
     "IMPMAL.ErrorNotEnoughSolars" : "¡{name} no tiene suficientes Solares!",
+    "IMPMAL.ErrorOwnedItemInPack" : "Los objetos propios no se pueden colocar en una mochila que no sea de tu propiedad.",
+    "IMPMAL.ErrorTraitType" : "Tipo de rasgo incorrecto",
+    "IMPMAL.ErrorNoAvailableActors" : "No hay actores disponibles para elegir.",
     "IMPMAL.Excellent" : "Excelente",
     "IMPMAL.ExposureMinor" : "Exposición Menor a la Corrupción",
     "IMPMAL.ExposureModerate" : "Exposición Moderada a la Corrupción",
@@ -355,7 +373,10 @@
     "IMPMAL.ForceFieldCollapsed" : "Campo de Fuerza Colapsado",
     "IMPMAL.Formula" : "Fórmula",
     "IMPMAL.Fortitude" : "Fortaleza",
+    "IMPMAL.Fraction" : "Fracción",
     "IMPMAL.Free" : "Gratis",
+    "IMPMAL.Front" : "Delantera",
+    "IMPMAL.FrontArmour" : "Blindaje delantero",
     "IMPMAL.Fumble" : "Pifia",
     "IMPMAL.Gender" : "Género",
     "IMPMAL.GMNotes" : "Notas del DJ",
@@ -380,6 +401,7 @@
     "IMPMAL.HowManyMags" : "¿Cuántos cargadores?",
     "IMPMAL.Hunted" : "Perseguido",
     "IMPMAL.IgnoreAP" : "Ignorar PA",
+    "IMPMAL.IgnoreEncumbrance" : "Ignorar impedimenta",
     "IMPMAL.IgnorePrerequisite" : "Ignorar Requisito",
     "IMPMAL.IgnorePrerequisiteContent" : "<p>Este Actor no cumple el requisito para este Talento. ¿Continuar de todas formas?</p>",
     "IMPMAL.Immediate" : "Inmediato",
@@ -393,12 +415,14 @@
     "IMPMAL.Infl" : "Infl.",
     "IMPMAL.Initiative" : "Iniciativa",
     "IMPMAL.Injury" : "Lesión",
+    "IMPMAL.Injuries" : "Lesiones",
     "IMPMAL.Instant" : "Instantáneo",
     "IMPMAL.InStock" : "¡En Stock!",
     "IMPMAL.InsufficentQuantity" : "Cantidad Insuficiente",
     "IMPMAL.Int" : "Int",
     "IMPMAL.Intelligence" : "Inteligencia",
     "IMPMAL.Intuition" : "Intuición",
+    "IMPMAL.Items" : "Objetos",
     "IMPMAL.ItemsNotAllowed" : "Este Objeto no está permitido en este tipo de Actor",
     "IMPMAL.ItemTraits" : "Rasgos del Objeto",
     "IMPMAL.ItemDisplayXSolars" : "{solars} Solares",
@@ -502,6 +526,7 @@
     "IMPMAL.OriginApplied" : "Origen {name} Aplicado",
     "IMPMAL.Ornamental" : "Ornamental",
     "IMPMAL.Other" : "Otro",
+    "IMPMAL.Offsets" : "Compensaciones",
     "IMPMAL.OutOfStock" : "¡Agotado!",
     "IMPMAL.OverburdenedThreshold" : "Límite de Sobrecarga",
     "IMPMAL.Overload" : "Sobrecalentamiento",
@@ -510,6 +535,7 @@
     "IMPMAL.Passengers" : "Pasajeros",
     "IMPMAL.Patron" : "Patrón",
     "IMPMAL.Path" : "Camino",
+    "IMPMAL.Packs" : "Paquetes",
     "IMPMAL.LightCover" : "Cobertura Ligera",
     "IMPMAL.MediumCover" : "Cobertura Media",
     "IMPMAL.HeavyCover" : "Cobertura Pesada",
@@ -585,6 +611,7 @@
     "IMPMAL.Restricted" : "Restringido",
     "IMPMAL.Reversed" : "Invertido",
     "IMPMAL.Reward" : "Recompensa",
+    "IMPMAL.RemoveFromPack" : "Quitar del paquete",
     "IMPMAL.Right" : "Derecha",
     "IMPMAL.RightArm" : "Brazo Derecho",
     "IMPMAL.RightArmAbbrev" : "BD",
@@ -608,6 +635,8 @@
     "IMPMAL.SendingSocketRequest" : "Enviando Solicitud de Socket a {name}",
     "IMPMAL.SeizeTheInitiative" : "Tomar la Iniciativa",
     "IMPMAL.SetPatron" : "Establecer como Patrón",
+    "IMPMAL.SelfTest" : "Auto chequeo",
+    "IMPMAL.SelfTestTT" : "El propietario de este rasgo debe realizar este chequeo.",
     "IMPMAL.Shield" : "Escudo",
     "IMPMAL.Shock" : "Choque",
     "IMPMAL.Shoddy" : "Defectuoso",
@@ -625,10 +654,12 @@
     "IMPMAL.Slots" : "Ranuras",
     "IMPMAL.Small" : "Pequeño",
     "IMPMAL.Solars" : "Solares",
+    "IMPMAL.SolarsAdded" : "{solars} Solares añadidos",
     "IMPMAL.Solid" : "Sólido",
     "IMPMAL.Source" : "Fuente",
     "IMPMAL.Special" : "Especial",
     "IMPMAL.Specialisation" : "Especialización",
+    "IMPMAL.Specialisations" : "Especializaciones",
     "IMPMAL.SpecialisationAdvances" : "Avances en Especialización",
     "IMPMAL.Specialised" : "Especializado",
     "IMPMAL.Species" : "Especie",
@@ -645,20 +676,28 @@
     "IMPMAL.Str" : "Fue",
     "IMPMAL.Strength" : "Fuerza",
     "IMPMAL.Structure" : "Estructura",
+    "IMPMAL.Submit" : "Enviar",
     "IMPMAL.Subtle" : "Sutil",
+    "IMPMAL.Subspecies" : "Subespecies",
     "IMPMAL.Success" : "Éxito",
     "IMPMAL.SuccumbingToCorruption" : "Sucumbiendo a la Corrupción",
     "IMPMAL.Supercharge" : "Sobrecargar",
     "IMPMAL.Superiority" : "Superioridad",
     "IMPMAL.SupportAttachment" : "Accesorio de Soporte",
     "IMPMAL.Sustained" : "Sostenido",
+    "IMPMAL.Swift" : "Rápido",
     "IMPMAL.TableSettings" : "Configuración de Tablas",
+    "IMPMAL.TableConfigure" : "Configurar tablas",
     "IMPMAL.TableSettingsHint" : "Configura qué tablas usa el sistema en los enlaces contextuales.",
     "IMPMAL.TableSetting.critarm" : "Golpes Críticos - Brazo",
     "IMPMAL.TableSetting.critleg" : "Golpes Críticos - Pierna",
     "IMPMAL.TableSetting.crithead" : "Golpes Críticos - Cabeza",
     "IMPMAL.TableSetting.critbody" : "Golpes Críticos - Cuerpo",
     "IMPMAL.TableSetting.critvehicle" : "Golpes Críticos - Vehículo",
+    "IMPMAL.TableSetting.critwheeled" : "Impactos críticos - Vehículo (con ruedas)",
+    "IMPMAL.TableSetting.critwalker" : "Impactos críticos - Vehículo (Caminante)",
+    "IMPMAL.TableSetting.critflyer" : "Impactos críticos - Vehículo (Volador)",
+    "IMPMAL.TableSetting.crittracked" : "Impactos críticos - Vehículo (Oruga)",
     "IMPMAL.TableSetting.fumble" : "Pifia",
     "IMPMAL.TableSetting.perils" : "Peligros de la Disformidad",
     "IMPMAL.TableSetting.phenomena" : "Fenómenos Psíquicos",
@@ -735,6 +774,7 @@
     "IMPMAL.TriggerStartTurn" : "Inicio de Turno",
     "IMPMAL.TriggerEndTurn" : "Fin de Turno",
     "IMPMAL.TriggerRollTable" : "Tabla de Tiradas",
+    "IMPMAL.TriggerEquipToggle" : "Alternar equipo",
     "IMPMAL.Troop" : "Tropa",
     "IMPMAL.Trusted" : "Fiable",
     "IMPMAL.TwoHanded" : "A Dos Manos",
@@ -767,7 +807,10 @@
     "IMPMAL.Value" : "Valor",
     "IMPMAL.VeryEasy" : "Muy Fácil",
     "IMPMAL.VeryHard" : "Muy Difícil",
+    "IMPMAL.Vehicle" : "Vehículo",
     "IMPMAL.VehicleWeapons" : "Armas de Vehículos",
+    "IMPMAL.VehicleDropTT" : "Arrastra y sueltar un personaje o un arma.",
+    "IMPMAL.VehicleControl" : "Control del vehículo",
     "IMPMAL.Vilified" : "Vilipendiado",
     "IMPMAL.WR" : "RD",
     "IMPMAL.WS" : "HA",
@@ -798,5 +841,249 @@
     "IMPMAL.WorldShrine" : "Santuario",
     "IMPMAL.WorldHive" : "Colmena",
     "IMPMAL.WorldForge" : "Forja",
-    "IMPMAL.XP" : "PX"
+    "IMPMAL.XP" : "PX",
+
+    "WH" : {
+        "Models" : {
+            "ammo"  : {
+                "FIELDS" : {
+                    "custom" : {
+                        "label" : "Personalizar",
+                        "hint" : "Arrastra y suelta munición personalizada sobre munición no personalizada para aplicar los modificadores."
+                    },
+                    "priceMultiplier" : {
+                        "label" : "Multiplicador de precio"
+                    },
+                    "damage" : {
+                        "label" : "Daño"
+                    },
+                    "usedWith" : {
+                        "label" : "Se utiliza con"
+                    }
+                }
+            },
+            "boonLiability"  : {
+                "FIELDS" : {
+                    "category" : {
+                        "label" : "Categoria"
+                    },
+                    "oneUse" : {
+                        "label" : "En uso"
+                    }
+                }
+            },
+            "duty"  : {
+                "FIELDS" : {
+                    "category" : {
+                        "label" : "Categoría"
+                    },
+                    "character.solars" : {
+                        "label" : "Solares"
+                    }
+                }
+            },
+            "corruption"  : {
+                "FIELDS" : {
+                    "category" : {
+                        "label" : "Categoría"
+                    }
+                }
+            },
+            "equipment" : {
+                "FIELDS" : {
+                    
+                }
+            },
+            "forceField" : {
+                "FIELDS" : {
+                    "protection" : {
+                        "label" : "Proteccion"
+                    },
+                    "overload" : {
+                        "value" : {
+                            "label" : "Sobrecarga"
+                        },
+                        "collapsed" : {
+                            "label" : "Colapsado"
+                        }   
+                    }
+                }
+            },
+            "modification" : {
+                "FIELDS" : {
+                    "type" : {
+                        "label" : "Tipo"
+                    },
+                    "category" : {
+                        "label" : "Categoría"
+                    },
+                    "usedWith" : {
+                        "label" : "Se utiliza con"
+                    }
+                }
+            },
+            "power" : {
+                "FIELDS" : {
+                    "discipline" : {
+                        "label" : "Disciplina"
+                    },
+                    "minorSpecialisation" : {
+                        "label" : "Especialización"
+                    },
+                    "difficulty" : {
+                        "label" : "Dificultad"
+                    },
+                    "rating" : {
+                        "label" : "Indice de deformidad"
+                    },
+                    "range" : {
+                        "label" : "Alcance"
+                    },
+                    "target" : {
+                        "label" : "Objetivo"
+                    },
+                    "duration" : {
+                        "label" : "Duración"
+                    },
+                    "overt" : {
+                        "label" : "Manifiesto"
+                    }
+                }
+            },
+            "protection" : {
+                "FIELDS" : {
+                    "category" : {
+                        "label" : "Categoria"
+                    },
+                    "armour" : {
+                        "label" : "Armadura"
+                    },
+                    "locations" : {
+                        "label" : {
+                            "label" : "Localizaciones"
+                        }
+                    }
+                }
+            },
+            "specialisation" : {
+                "FIELDS" : {
+                    "restricted" : {
+                        "label" : "Restringido"
+                    },
+                    "skill" : {
+                        "label" : "Habilidad"
+                    }
+                }
+            },
+            "talent"  : {
+                "FIELDS" : {
+                    "requirement" : {
+                        "value" : {
+                            "label" : "Requisito"
+                        },
+                        "script" : {
+                            "label" : "Requisitos del script"
+                        }
+                    }
+                }
+            },
+            "origin"  : {
+                "FIELDS" : {
+                    "characteristics.base" : {
+                        "label" : "Característica"
+                    }
+                }
+            },
+            "weapon"  : {
+                "FIELDS" : {
+                    "attackType" : {
+                        "label" : "Tipo de ataque"
+                    },
+                    "category" : {
+                        "label" : "Categoria"
+                    },
+                    "spec" : {
+                        "label" : "Especialización"
+                    },
+                    "range" : {
+                        "label" : "Alcance"
+                    },
+                    "mag" : {
+                        "value" : {
+                            "label" : "Revista"
+                        }
+                    },
+                    "ammoCost" : {
+                        "label" : "Coste de munición"
+                    }
+                }
+            },
+            "faction" : {
+                "FIELDS" : {
+                    "character" : {
+                        "characterisics" : {
+                            "base" : {
+                                "label" : "Característica"
+                            }
+                        }
+                    }
+                }
+            },
+            "trait" : {
+                "FIELDS" : {
+                    "category" : {
+                        "label" : "Categoria"
+                    },
+                    "attack": {
+                        "type" : {
+                            "label" : "Tipo de ataque"
+                        },
+                        "characteristic": {
+                            "label": "Característica"
+                        },
+                        "damage": {
+                            "characteristic": {
+                                "label": "Característica"
+                            },
+                            "ignoreAP" : {
+                                "label" : "Ignorar blindaje"
+                            }
+                        },
+                        "range" : {
+                            "label" : "Alcance"
+                        }
+                    },
+                    "vehicle" : {
+                        "maneuverable" : {
+                            "label" : "Maniobrable",
+                            "hint" : "Bonificador a los chequeos de control"
+                        }
+                    }
+                }
+            },
+            "pack" : {
+                "FIELDS" : {
+                    "ignoreEncumbrance" : {
+                        "label" : "Ignorar impedimenta"
+                    },
+                    "solars" : {
+                        "label" : "Solares"
+                    }
+                }
+            }
+        },
+        "Components" : {
+            "Locational" : {
+                "FIELDS" : {
+                    "prompt" : {
+                        "label" : "Ubicación rápida",
+                        "hint" : "Solicitar una ubicación cuando se añade a un actor."
+                    },
+                    "location.value" : {
+                        "label" : "Localización"
+                    }
+                }
+            }
+        }
+    }
 }

@@ -2,7 +2,7 @@
   "id": "fvtt-module-impmal-es",
   "title": "Translation: Spanish [Warhammer 40,000 Roleplay: Imperium Maledictum]",
   "description": "Traducción del sistema Warhammer 40,000 Roleplay: Imperium Maledictum (moo-man/ImpMal-FoundryVTT) al español -  Warhammer 40,000 Roleplay: Imperium Maledictum spanish translation",
-  "version": "2.21.1",
+  "version": "3.20.1",
   "languages": [
     {
       "lang": "es",
@@ -16,11 +16,15 @@
   "download": "https://github.com/lozanoje/fvtt-module-impmal-es/archive/master.zip",
   "authors": [
     {
-      "name": "Ellyjah",
+      "name": "@Ellyjah",
       "flags": {}
     },
     {
       "name": "José E. Lozano (@Viriato139ac#0342)",
+      "flags": {}
+    },
+    {
+      "name": "@Chiwee",
       "flags": {}
     }
   ],
@@ -32,7 +36,7 @@
       {
         "id": "impmal",
         "type": "system",
-        "compatibility": "2.2.1"
+        "compatibility": "3.2.0"
       }
     ],
 	"requires": [
@@ -44,8 +48,8 @@
     ]
   },
   "compatibility": {
-    "minimum": "12",
-    "verified": "12.343",
-    "maximum": "12"
+    "minimum": "13",
+    "verified": "13.348",
+    "maximum": "13"
   }
 }
